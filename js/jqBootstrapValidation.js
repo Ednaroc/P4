@@ -836,7 +836,12 @@
 			required: {
 				name: "Required",
 				type: "required",
-				message: "This is required<!-- data-validator-required-message to override -->"
+				message: "This is a required field. Please fill it before submiting your request.<!-- data-validator-required-message to override -->"
+			},
+      required2: {
+				name: "Required2",
+				type: "required",
+				message: "This is required. Please enter a first name.<!-- data-validator-required-message to override -->"
 			},
 			checkone: {
 				name: "Checkone",
